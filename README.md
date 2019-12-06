@@ -4,6 +4,10 @@
 
 ## Installation & Use
 
+```bash
+npm install cryptapi
+```
+
 ```js
 const cryptapi = require('cryptapi')()
 
