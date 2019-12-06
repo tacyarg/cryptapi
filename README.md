@@ -1,7 +1,9 @@
 # cryptapi
+
 cryptapi nodejs wrapper
 
 ## Installation & Use
+
 ```js
 const cryptapi = require('cryptapi')()
 
@@ -24,7 +26,7 @@ cryptapi.btcLogs(callback)
 
 ## Interface
 
-```
+```json
 {
   "btcInfo",
   "btcCreateAddress",
