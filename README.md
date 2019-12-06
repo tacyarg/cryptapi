@@ -8,6 +8,10 @@
 npm install cryptapi
 ```
 
+```bash
+yarn add cryptapi
+```
+
 ```js
 const cryptapi = require('cryptapi')()
 
