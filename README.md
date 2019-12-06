@@ -1,6 +1,6 @@
 # cryptapi
 
-cryptapi nodejs wrapper
+[cryptapi](https://cryptapi.io/docs) nodejs wrapper
 
 ## Installation & Use
 
