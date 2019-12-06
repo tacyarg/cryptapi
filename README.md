@@ -26,7 +26,7 @@ cryptapi.btcLogs(callback)
 
 ## Interface
 
-```json
+```js
 {
   "btcInfo",
   "btcCreateAddress",
