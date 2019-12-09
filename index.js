@@ -5,7 +5,7 @@ module.exports = (config = {}) => {
 
   config = {
     baseURL: 'https://cryptapi.io/api/',
-    supportedTickers: ['btc', 'bch', 'ltc', 'etc', 'xmr', 'iota'],
+    supportedTickers: ['btc', 'bch', 'ltc', 'eth', 'xmr', 'iota'],
     ...config
   }
 
