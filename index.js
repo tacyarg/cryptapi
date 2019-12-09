@@ -41,5 +41,15 @@ module.exports = (config = {}) => {
     memo[`${ticker}CreateAddress`] = tickerCreateAddress(ticker)
     memo[`${ticker}Logs`] = tickerLogs(ticker)
     return memo
-  }, {})
+  }, {
+    _createAddress: (ticker, address, callback, options) => {
+      const ca = tickerCreateAddress(ticker)
+      return ca(address, callback, options)
+    },
+    _getInfo: (ticker) => getTickerInfo(ticker),
+    _tickerLogs: (ticker, callback) => {
+      const ca = tickerLogs(ticker)
+      return ca(callback)
+    },
+  })
 }
