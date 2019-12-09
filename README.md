@@ -2,6 +2,8 @@
 
 [cryptapi](https://cryptapi.io/docs) nodejs wrapper
 
+> Bitcoin, Bitcoin Cash, Litecoin, Ethereum, Monero, IOTA, ...
+
 ## Installation & Use
 
 ```bash
